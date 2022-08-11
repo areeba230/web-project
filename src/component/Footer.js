@@ -3,10 +3,11 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import '../Styles/Footer.css'
 function Footer() {
   return (
     <div className='footer'>
-        <div>
+        <div className='SocialMedia'>
             <InstagramIcon />
             <TwitterIcon />
             <FacebookIcon />
